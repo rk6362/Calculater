@@ -1,0 +1,36 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.container{
+    width: 260px;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-weight: bold;
+
+
+}
+input{
+    width: 248px;
+    height: 60px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-align: right;
+    font-weight: bold;
+}
